@@ -105,6 +105,15 @@ a {
   scrollbar-width: none; /* Firefox */
 }
 
+span > p {
+  font: 1em sans-serif;
+
+}
+
+span > p:hover {
+  color: #FF685A;
+}
+
 /* START: about us media queries */
 @media screen and (max-width: 1024px) {
   .about-us {
@@ -139,6 +148,10 @@ a {
     display: block;
     top: 47%;
   }
+}
+
+.about-us__button:hover {
+  background-color: #FF685A;
 }
 
 @media screen and (max-width: 550px) {
@@ -269,6 +282,8 @@ a {
 
     border: none;
   }
+  
+  
 
   .subscription__form input {
     min-height: 50px;
@@ -281,6 +296,10 @@ a {
   .subscription__form button {
     min-width: 100%;
   }
+}
+
+.subscription__form button:hover {
+  background-color: #FF685A;
 }
 /* END: subscribe media queries */
 
@@ -302,6 +321,8 @@ a {
   .trending__discover {
     display: none;
   }
+
+  
 
   .trending__arrow {
     display: none;

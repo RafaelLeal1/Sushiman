@@ -46,6 +46,10 @@
   cursor: pointer;
 }
 
+.footer__nav li:hover {
+  color: #FF685A;
+}
+
 .footer__social li {
   width: 42px;
   height: 42px;
@@ -57,6 +61,9 @@
 .footer__social li img {
   width: 45%;
   height: 45%;
-
   object-fit: contain;
+}
+
+.footer__social li:hover {
+  background-color: #FF685A;
 }

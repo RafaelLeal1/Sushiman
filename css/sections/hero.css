@@ -47,6 +47,8 @@
   flex-direction: column;
 }
 
+
+
 .hero-content-info {
   padding: 64px;
   flex: 1;
@@ -93,6 +95,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+}
+
+.hero-content__order-button:hover {
+  background-color: #FF685A;
 }
 
 .hero-content__play-button {
@@ -172,4 +178,8 @@
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   opacity: 0.8
+}
+
+.header__menu > li:hover {
+    color: #FF685A;
 }
